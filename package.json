@@ -1,5 +1,5 @@
 {
-  "homepage":"https://matthiaspaulraus.github.io/deutsch-quiz-b1-eins",
+  "homepage": "https://matthiaspaulraus.github.io/deutsch-quiz-b1-eins",
   "name": "deutsch-quiz-b1-eins",
   "version": "0.1.0",
   "private": true,
@@ -15,8 +15,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
