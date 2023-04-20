@@ -118,7 +118,7 @@ const QuestionsList = [
         {answer:"war mir klar, dass ich nicht studieren wollte.", isCorrect:false},
         ]    
     },
-    {question:"Am wichtigsten ist es",
+    {question:"Am wichtigsten ist es,",
     answersList: [
         {answer:"dem Käufer zu widersprechen.", isCorrect:false},
         {answer:"die Kunden zu überzeugen.", isCorrect:true},
