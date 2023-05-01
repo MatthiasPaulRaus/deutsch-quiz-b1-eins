@@ -1,225 +1,224 @@
 const QuestionsList = [
     {
-    question: "Für welche Berufe interessieren Sie sich?",
+    question: "Wie finden Sie den neuen Kollegen?",
     answersList: [
-        {answer: "Soziale Berufe finde ich interessant.", isCorrect:true},
-        {answer: "Ich bin Sozialarbeiter.", isCorrect:false},  
-        {answer: "Ich bin technisch nicht begabt.", isCorrect:false},
+        {answer: "Den finde ich sehr sympathisch.", isCorrect:true},
+        {answer: "Sie finden ihn nicht freundlich." , isCorrect:false},  
+        {answer: "Der gefällt ihnen.", isCorrect:false},
         ]  
     },
     {
-    question: "Welche Berufe entsprechen Ihren Fähigkeiten?",
+    question: "Mit wem ist der Chef zur Konferenz gereist?",
     answersList: [
-        {answer:"Ich habe soziale Fähigkeiten.", isCorrect:false},
-        {answer:"Ich bin technisch sehr begabt.", isCorrect:false},
-        {answer:"Technische Berufe passen gut zu mir.", isCorrect:true},
+        {answer:"Mit den neuen Mitarbeiter.", isCorrect:false},
+        {answer:"Mit der neuen Mitarbeiterin.", isCorrect:true},
+        {answer:"Mit der neue Mitarbeiter.", isCorrect:false},
         ]   
     },
-    
     {
-    question:"Ich bin gern mit Menschen zusammen.",
-    answersList: [
-        {answer:"Dann solltest du nicht im Team arbeiten.", isCorrect:false},
-        {answer:"Dann solltest du einen Sozialberuf wählen.", isCorrect:true},
-        {answer:"Du könntest nachts arbeiten.", isCorrect:false},
-        ]    
+    question: "Wer hat nach mir gefragt?",
+    answersList:[
+        {answer:"Einen neuen Praktikanten.", isCorrect:false},
+        {answer:"Einer neuen Praktikantin.", isCorrect:false},
+        {answer:"Ein neuer Praktikant.", isCorrect:true},
+        ]
     },
-    
-    {question:"Regelmäßig Sport zu treiben",
-    answersList: [
-        {answer:"trägt zu einem besseren Wohlbefinden bei.", isCorrect:true},
-        {answer:"schadet Ihrem Wohlbefinden.", isCorrect:false},
-        {answer:"stärkt das Wohlfühlen", isCorrect:false},
-        ]    
+    {question: "Wie war dein erster Arbeitstag?",
+    answersList:[
+        {answer: "Sie machte mir keinen Spaß.", isCorrect:false},
+        {answer: "Er ist mir in guter Erinnerung geblieben.", isCorrect:true},
+        {answer: "Er hatte eine schlechte Erinnerung.", isCorrect:false},
+        ]
     },
-    {question:"Sie können Ihr persönliches Fitnessprogramm",
-    answersList: [
-        {answer:"herstellen.", isCorrect:false},
+    {question: "Besonders gut hat mir das Betriebsklima",
+    answersList:[
+        {answer:"gefallen.", isCorrect:true},
+        {answer:"gewesen.", isCorrect:false},
+        {answer:"gegeben.", isCorrect:false},  
+        ]
+    },    
+    {question: "Die Arbeitskollegen waren",
+    answersList:[
+        {answer:"sehr hilfsbereit.", isCorrect:true},
+        {answer:"in schlechter Erinnerung.", isCorrect:false},
+        {answer:"praktisch.", isCorrect:false},  
+        ]
+    }, 
+    {question: "Mein erster Arbeitstag war",
+    answersList:[
+        {answer:"enttäuscht.", isCorrect:false},
+        {answer:"sehr zufrieden.", isCorrect:false},
+        {answer:"sehr anstrengend.", isCorrect:true},  
+        ]
+    },
+    {question: "Wir suchten eine Wohnung,",
+    answersList:[
+        {answer:"mit der Garage.", isCorrect:false},
+        {answer:"die in der Stadtmitte lag.", isCorrect:true},
+        {answer:"die in den Garten führte.", isCorrect:false},  
+        ]
+    },
+    {question: "Das ist das Haus,",
+    answersList:[
+        {answer:"von dem ich dir erzählt hatte.", isCorrect:true},
+        {answer:"das ich erzählt habe.", isCorrect:false},
+        {answer:"dem ich es erzählt habe.", isCorrect:false},  
+        ]
+    },
+    {question: "Wo wohnst du am liebsten?",
+    answersList:[
+        {answer:"Ins Stadtzentrum", isCorrect:false},
+        {answer:"Mitten am Stadtrand", isCorrect:false},
+        {answer:"Außerhalb der Stadt", isCorrect:true},  
+        ]
+    },
+
+
+
+    {question: "Durch die Fenster blickt man",
+    answersList:[
+        {answer:"auf den Marktplatz.", isCorrect:true},
+        {answer:"im Grünen.", isCorrect:false},
+        {answer:"durch den Park.", isCorrect:false},  
+        ]
+    },
+    {question: "Ein Drittel der Bevölkerung lebt",
+    answersList:[
+        {answer:"auf das Land.", isCorrect:false},
+        {answer:"in Großstädten.", isCorrect:true},
+        {answer:"in Haushalten.", isCorrect:false},  
+        ]
+    },
+    {question: "Die Hälfte der Bewohner lebt",
+    answersList:[
+        {answer:"in der Kleinstadt.", isCorrect:false},
+        {answer:"im Hochhaus.", isCorrect:false},
+        {answer:"allein.", isCorrect:true},  
+        ]
+    },
+    {question: "Sie haben die Heizung noch nicht repariert,",
+    answersList:[
+        {answer:"trotzdem ich es Ihnen gesagt habe.", isCorrect:false},
+        {answer:"obwohl ich es Ihnen mehrmals gesagt habe.", isCorrect:true},
+        {answer:"ich sagte es Ihnen trotzdem.", isCorrect:false},  
+        ]
+    },
+    {question: "Ich habe es Ihnen schon oft erklärt.",
+    answersList:[
+        {answer:"Trotzdem haben Sie es nicht geändert.", isCorrect:true},
+        {answer:"Obwohl Sie nichts geändert haben.", isCorrect:false},
+        {answer:"obwohl Sie es nicht ändern.", isCorrect:false},  
+        ]
+    },
+    {question: "Ihr Service hat mich enttäuscht.",
+    answersList:[
+        {answer:"Obwohl ich Sie weiter empfehle.", isCorrect:false},
+        {answer:"Trotzdem ich Sie empfehle.", isCorrect:false},
+        {answer:"Trotzdem werde ich Sie weiter empfehlen.", isCorrect:true},  
+        ]
+    },
+    {question: "Wie sieht die Zukunft der Arbeit aus?",
+    answersList:[
+        {answer:"Digitale Medien werden immer unwichtiger.", isCorrect:false},
+        {answer:"Es gibt keine Alternative zur Digitalisierung.", isCorrect:true},
+        {answer:"Wir werden keine Teamarbeit mehr brauchen.", isCorrect:false},  
+        ]
+    },
+    {question: "Sie wollten kein Fleisch bestellen,",
+    answersList:[
+        {answer:"weil Sie Vegetarierin sind.", isCorrect:true},
+        {answer:"obwohl Sie Vegetarier sind.", isCorrect:false},
+        {answer:"denn Sie Vegetarier sind.", isCorrect:false},  
+        ]
+    },
+    {question: "Möchten Sie noch etwas von der Torte?",
+    answersList:[
+        {answer:"Nein, danke. Sie sieht lecker aus.", isCorrect:false},
+        {answer:"Hm, ich kann mich entscheiden.", isCorrect:false},
+        {answer:"Ja, gerne. Sie schmeckt sehr gut.", isCorrect:true},  
+        ]
+    },
+    {question: "Ich wollte eigentlich noch einen Nachtisch",
+    answersList:[
+        {answer:"bestellen.", isCorrect:true},
         {answer:"vorstellen.", isCorrect:false},
-        {answer:"zusammenstellen.", isCorrect:true},
-        ]    
-    },
-    {question:"Unsere Fitnessprogramme",
-    answersList: [
-        {answer:"finden sie im Freien.", isCorrect:false},
-        {answer:"finden ausschließlich im Freien statt.", isCorrect:true},
-        {answer:"sind ein Risiko für die Gesundheit.", isCorrect:false},
-        ]    
-    },
-    {question:"Die Arbeit im Homeoffice macht unser Unternehmen",
-    answersList: [
-        {answer:"familien-freundlicher.", isCorrect:true},
-        {answer:"familiär.", isCorrect:false},
-        {answer:"kinderfreundlich.", isCorrect:false},
-        ]    
-    },
-    {question:"Hätten Sie bei der Arbeit gern längere Pausen?",
-    answersList: [
-        {answer:"Ja, gern. Dann kann ich länger arbeiten.", isCorrect:false},
-        {answer:"Klar. Kürzere Pausen sind besser.", isCorrect:false},
-        {answer:"Nein, eine kürzere Arbeitszeit ist mir lieber.", isCorrect:true},
-        ]    
-    },
-    {question:"Die Mahlzeiten unserer Kantine",
-    answersList: [
-        {answer:"sind allergisch für die Gesundheit.", isCorrect:false},
-        {answer:"sind auch für Allergiker geeignet.", isCorrect:true},
-        {answer:"sind auch für Vegetarier allergisch.", isCorrect:false},
-        ]    
-    },
-    {question:"Sport trägt zu einem größeren ... bei.",
-    answersList: [
-        {answer:"Wohlfühlen", isCorrect:false},
-        {answer:"Fitnessangebot", isCorrect:false},
-        {answer:"Wohlbefinden", isCorrect:true},
-        ]    
+        {answer:"vor dem Hauptgericht.", isCorrect:false},  
+        ]
     },
 
 
-    {question:"Was machen Sie nach der Arbeit?",
-    answersList: [
-        {answer:"Bevor ich nach Hause fahre, gehe ich zum Training.", isCorrect:true},
-        {answer:"Nach dem Training, fahre ich zur Arbeit.", isCorrect:false},
-        {answer:"Bevor ich trainiere, muss ich arbeiten. ", isCorrect:false},
-        ]    
-    },
-    {question:"Was machen Sie vor der Arbeit?",
-    answersList: [
-        {answer:"Während ich arbeite, lese ich die E-Mails.", isCorrect:false},
-        {answer:"Nach dem Aufstehen frühstücke ich.", isCorrect:true},
-        {answer:"Bevor ich einkaufe, gehe ich zur Arbeit.", isCorrect:false},
-        ]    
-    },
-    {question:"Ich bin fertig mit meinem Vortrag.",
-    answersList: [
-        {answer:"Vielen Dank für Ihre Aufmerksamkeit.", isCorrect:true},
-        {answer:"Danke für Ihre Einleitung.", isCorrect:false},
-        {answer:"Und nun komme ich zum nächsten Punkt.", isCorrect:false},
-        ]    
-    },
-    {question:"Der Inhalt meiner Präsentation:",
-    answersList: [
-        {answer:"Abschließend stehe ich für Fragen zur Verfügung.", isCorrect:false},
-        {answer:"Zuerst möchte ich über ... sprechen.", isCorrect:true},
-        {answer:"Anschließend gehe ich auf Fragen ein.", isCorrect:false},
-        ]    
-    },
-    {question:"Unsere Produkte sind Handarbeit, ",
-    answersList: [
-        {answer:"denn sie sind teurer als Industrieprodukte.", isCorrect:false},
-        {answer:"obwohl sie industriell hergestellt werden.", isCorrect:false},
-        {answer:"deshalb kosten sie mehr als Industriewaren.", isCorrect:true},
-        ]    
-    },
-    {question:"Schon vor dem Studium ",
-    answersList: [
-        {answer:"wusste ich, was ich werden wollte.", isCorrect:true},
-        {answer:"wusste ich nicht, welches Handwerk ich lernen wollte.", isCorrect:false},
-        {answer:"war mir klar, dass ich nicht studieren wollte.", isCorrect:false},
-        ]    
-    },
-    {question:"Am wichtigsten ist es,",
-    answersList: [
-        {answer:"dem Käufer zu widersprechen.", isCorrect:false},
-        {answer:"die Kunden zu überzeugen.", isCorrect:true},
-        {answer:"den Interessenten eine Aufgabe zu geben.", isCorrect:false},
-        ]    
-    },
-    {question:"Ein attraktiver Arbeitgeber ist",
-    answersList: [
-        {answer:"jemand, der gute Aufstiegschancen bietet.", isCorrect:true},
-        {answer:"jemand, der schöne Arbeitsplätze schafft.", isCorrect:false},
-        {answer:"jemand, der weiß, was die Mitarbeiter wünschen.", isCorrect:false},
-        ]    
-    },
-    {question:"Ein gutes Betriebsklima",
-    answersList: [
-        {answer:"hat ein angemessenes Gehalt.", isCorrect:false},
-        {answer:"sieht man am Wohlbefinden der Mitarbeiter.", isCorrect:true},
-        {answer:"bietet attraktive Weiterbildungsangebote.", isCorrect:false},
-        ]    
-    },
-    {question:"Wenn wir es früher gewusst hätten,",
-    answersList: [
-        {answer:"hätten wir den Fehler nicht gemacht.", isCorrect:true},
-        {answer:"hätten Sie uns ausführlich informiert.", isCorrect:false},
-        {answer:"hätten sie es uns erklärt.", isCorrect:false},
-        ]    
-    },
 
-
-    {question:"Wären wir doch früher losgefahren.",
-    answersList: [
-        {answer:"Dann wären wir zu spät gekommen.", isCorrect:false},
-        {answer:"Dann wären wir nicht angekommen.", isCorrect:false},
-        {answer:"Dann würden wir jetzt nicht im Stau stehen.", isCorrect:true},
-        ]    
+    {question: "Darf ich Ihnen einen Aperitif",
+    answersList:[
+        {answer:"verbieten?", isCorrect:false},
+        {answer:"anbieten?", isCorrect:true},
+        {answer:"dazugeben?", isCorrect:false},  
+        ]
     },
-    {question:"Nachdem wir ein ganzes Jahr lang trainiert hatten,",
-    answersList: [
-        {answer:"gewannen wir das wichtige Turnier.", isCorrect:true},
-        {answer:"wollen wir endlich das Turnier gewinnen.", isCorrect:false},
-        {answer:"gewinnen wir alle Turniere.", isCorrect:false},
-        ]    
+    {question: "Nehmen Sie Platz!",
+    answersList:[
+        {answer:"Fühlen Sie sich zuhause!", isCorrect:false},
+        {answer:"Fühlen Sie sich wie im Haus!", isCorrect:false},
+        {answer:"Fühlen Sie sich wie zuhause!", isCorrect:true},  
+        ]
     },
-    {question:"Das ist mir auch schon passiert.",
-    answersList: [
-        {answer:"Sie können es sich denken.", isCorrect:false},
-        {answer:"Ich kann Sie sehr gut verstehen.", isCorrect:true},
-        {answer:"Wirklich? Ich kann es nicht glauben.", isCorrect:false},
-        ]    
+    {question: "Es ist schon spät.",
+    answersList:[
+        {answer:"Wir müssen langsam gehen.", isCorrect:true},
+        {answer:"Wir wollten langsam gehen.", isCorrect:false},
+        {answer:"Wir mussten langsam gehen.", isCorrect:false},  
+        ]
     },
-    {question:"Darüber hätte ich mich auch geärgert.",
-    answersList: [
-        {answer:"Worüber hast du dich geärgert?", isCorrect:false},
-        {answer:"Warum haben Sie sich so aufgeregt?", isCorrect:false},
-        {answer:"Mir war das auch passiert.", isCorrect:true},
-        ]    
+    {question: "Ich würde Ihnen empfehlen,",
+    answersList:[
+        {answer:"zweimal wöchentlich Sport zu machen.", isCorrect:true},
+        {answer:"zwei Wochen Sport machen.", isCorrect:false},
+        {answer:"zweimal Sport machen.", isCorrect:false},  
+        ]
     },
-    {question:"Was feiern die Leute da auf dem Platz?",
-    answersList: [
-        {answer:"Das sollte das Maifest sein.", isCorrect:false},
-        {answer:"Das müsste das Sommerfest sein", isCorrect:true},
-        {answer:"Das war der Weihnachtsmarkt.", isCorrect:false},
-        ]    
+    {question: "Es ist meine Pflicht, Sie",
+    answersList:[
+        {answer:"informieren.", isCorrect:false},
+        {answer:"darüber informieren.", isCorrect:false},
+        {answer:"darüber zu informieren.", isCorrect:true},  
+        ]
     },
-    {question:"Vielen Dank für Ihre Einladung.",
-    answersList: [
-        {answer:"Aber leider haben wir schon etwas vor.", isCorrect:true},
-        {answer:"Bevor wir kommen, brauchen wir eine Einladung.", isCorrect:false},
-        {answer:"Das Jubiläum haben wir mit allen Kollegen gefeiert.", isCorrect:false},
-        ]    
+    {question: "Vielen Dank für den Hinweis.",
+    answersList:[
+        {answer:"Jetzt weiß ich, was ich brauche.", isCorrect:true},
+        {answer:"Weiß ich jetzt, was ich brauche?", isCorrect:false},
+        {answer:"Ich weiß nicht, was ich brauche.", isCorrect:false},  
+        ]
     },
-    {question:"Das Filmfest dieses Jahres war ein voller Erfolg.",
-    answersList: [
-        {answer:"Letztes Jahr war ein großes Fest.", isCorrect:false},
-        {answer:"Dieses Jahr war er nicht erfolgreich.", isCorrect:false},
-        {answer:"Nächstes Jahr wird es noch besser.", isCorrect:true},
-        ]    
+    {question: "Melden Sie sich, wenn Sie sich entschieden haben.",
+    answersList:[
+        {answer:"Ja, das würde ich gern tun.", isCorrect:false},
+        {answer:"Ja, das werde ich gern tun.", isCorrect:true},
+        {answer:"Ja, das könnte ich entscheiden.", isCorrect:false},  
+        ]
     },
-    {question:"Trotz des schlechten Wetters",
-    answersList: [
-        {answer:"konnte das Seminar im Freien stattfinden.", isCorrect:true},
-        {answer:"kann die Vorstellung nicht stattfinden.", isCorrect:false},
-        {answer:"war die Veranstaltung kein Erfolg.", isCorrect:false},
-        ]    
+    {question: "Vergessen Sie nicht,",
+    answersList:[
+        {answer:"den Kundendienst zu rufen.", isCorrect:false},
+        {answer:"den Kundendienst rufen.", isCorrect:false},
+        {answer:"den Kundendienst anzurufen.", isCorrect:true},  
+        ]
     },
-    {question:"Das Verhalten der Kollegen war etwas merkwürdig.",
-    answersList: [
-        {answer:"Ich konnte es mir nicht merken.", isCorrect:false},
-        {answer:"Ja, sie waren sehr freundlich.", isCorrect:false},
-        {answer:"Ja, das ist mir auch aufgefallen.", isCorrect:true},
-        ]    
+    {question: "Es ist nicht einfach,",
+    answersList:[
+        {answer:"eine Entscheidung zu treffen.", isCorrect:true},
+        {answer:"eine Entscheidung treffen.", isCorrect:false},
+        {answer:"eine Entscheidung zu finden.", isCorrect:false},  
+        ]
     },
-    {question:"Sie sollten dringend aufhören zu rauchen!",
-    answersList: [
-        {answer:"Womit soll ich aufhören?", isCorrect:true},
-        {answer:"Wem soll ich zuhören?", isCorrect:false},
-        {answer:"Wozu sollte ich rauchen?", isCorrect:false},
-        ]    
-    },
+    {question: "Hast du Lust,",
+    answersList:[
+        {answer:"zu spazieren?", isCorrect:false},
+        {answer:"einen Spaziergang zu machen?", isCorrect:true},
+        {answer:"auf einen Spaziergang zu machen.", isCorrect:false},  
+        ]
+}
     
-
 ].sort(() => Math.random() - 0.5);
 
 export default QuestionsList;
